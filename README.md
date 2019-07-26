@@ -1,7 +1,9 @@
 # NarinoTut
 Files for Tensorflow and Machine Learning Tutorial. 
-##Python 
+## Python 
 https://www.codecademy.com/learn/learn-python
+
+https://www.w3schools.com/python/
 ```python
 print("Hello World")
 
@@ -35,32 +37,65 @@ def my_function():
   print("Hello from a function")
 
 my_function()
+
+#dictionaries
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+
+thisdict["brand"]
+
+#for loops
+for x in "banana":
+  print(x)
+
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4], [1,4,9,16], 'ro')
+plt.axis([0, 6, 0, 20])
+plt.show()
+
+
 ```
 
-##History of AI
 
 
-##Machine Learning
-least squares
-supervised vs unsupervised
-support Vector machines
-genetic algorithms 
-k-means classification
 
-##Neural Networks
-http://www.cs.us.es/~fsancho/?e=72
+## Machine Learning
+1. history of AI, features
+2. least squares
+3. supervised vs unsupervised
+4. support Vector machines
+5. genetic algorithms 
+6. k-means classification
+7. bayesian algorithms 
+8. logistic regression
+
+## Neural Networks
+1. http://www.cs.us.es/~fsancho/?e=72
+(good video and tutorial https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU)
+
+(https://github.com/stephencwelch/Neural-Networks-Demystified)
+
 tensorboard info: https://www.tensorflow.org/guide/summaries_and_tensorboard
 tensorboard command: tensorboard --logdir=ENTERLOGFOLDERPATH --host localhost --port 8088
-#biological Intutition and History
-#hyperparameters
-#activation function 
-#gradient descent
+
+biological Intutition and History
+2. hyperparameters
+3. activation function 
+4. gradient descent and variations (momentum, conjugate, adam )
 (stochastic vs batch)
-#backpropagation
-#cost functions
-#one hot encoding
-#regularization
+5. backpropagation
+6. cost functions
+7. one hot encoding
+8. regularization
 (L2 regularization , early stopping, dropout, augmentation)
+regression: out https://www.tensorflow.org/tutorials/keras/basic_regression
+overfitting tutorial : https://www.tensorflow.org/beta/tutorials/keras/overfit_and_underfit
+
 ```python
 #first model test
 from __future__ import absolute_import, division, print_function, unicode_literals
@@ -86,22 +121,29 @@ model.fit(x_train, y_train, epochs=5)
 model.evaluate(x_test, y_test)
 ```
 
-##Deep Neural Networks and Image Classification
-Good Lectures
+
+
+
+
+
+## Deep Neural Networks and Image Classification
+1. Good Lectures
 https://www.youtube.com/watch?v=5v1JnYv_yWs&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 Link to google colab notebooks 
 Image Classification:https://www.tensorflow.org/beta/tutorials/keras/basic_classification
 CNN introduction:https://www.tensorflow.org/beta/tutorials/images/intro_to_cnns
-#New Methods ie GANS
-#LSTM
-##Image Classification 
-###datasets
-###Filters
-###dropout 
-###pooling
-###Image Augementation
+2. Image Classification (GPU,TPU)
+3. datasets
+4. Filters
+5. dropout 
+6. pooling
+7. Image Augementation
+8. Transfer Learning 
+
 ```python
+
 #CNN example from Tensorflow examples
+
 from __future__ import absolute_import, division, print_function, unicode_literals
 import tensorflow as tf
 
@@ -136,20 +178,19 @@ model.compile(optimizer='adam',
 model.fit(train_images, train_labels, epochs=5)
 
 ```
-
-#Object Detection 
-
-##Optional 
-explodinng vs vanishing graidents
-object detection 
-custom modeling production 
-
-
-#Appendix
+## The New Revolution
+1. Object Detection 
+2. LSTM's
+3. GANs
+4. RNN
+5. vanishing and exploding gradients 
+6. word embeddings 
+(http://projector.tensorflow.org)
 
 
 
+## More
+If we have time, I will show how to make an object detector and how to make a 
+custom model. 
 
-
-
-
+possible other https://github.com/tensorflow/tensorflow/blob/r1.13/tensorflow/contrib/eager/python/examples/generative_examples/dcgan.ipynb
