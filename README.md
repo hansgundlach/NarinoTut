@@ -59,6 +59,14 @@ plt.axis([0, 6, 0, 20])
 plt.show()
 
 
+#for fizzbuzz
+a = 3
+b = 4
+if a != b:
+  print("something")
+else:
+  print(a%3)
+
 ```
 
 Excercise #1
