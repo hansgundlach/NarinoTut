@@ -145,6 +145,8 @@ CNN introduction:https://www.tensorflow.org/beta/tutorials/images/intro_to_cnns
 7. Image Augementation
 8. Transfer Learning 
 
+Interesting Competitions https://www.kaggle.com/competitions
+
 ```python
 
 #CNN example from Tensorflow examples
