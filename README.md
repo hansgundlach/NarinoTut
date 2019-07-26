@@ -76,6 +76,7 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 
 
 ## Machine Learning
+
 1. history of AI, features
 2. least squares
 3. supervised vs unsupervised
@@ -95,13 +96,21 @@ tensorboard info: https://www.tensorflow.org/guide/summaries_and_tensorboard
 tensorboard command: tensorboard --logdir=ENTERLOGFOLDERPATH --host localhost --port 8088
 
 biological Intutition and History
+
 2. hyperparameters
-3. activation function 
+
+3. activation function
+
 4. gradient descent and variations (momentum, conjugate, adam )
+
 (stochastic vs batch)
+
 5. backpropagation
+
 6. cost functions
+
 7. one hot encoding
+
 8. regularization
 (L2 regularization , early stopping, dropout, augmentation)
 regression: out https://www.tensorflow.org/tutorials/keras/basic_regression
