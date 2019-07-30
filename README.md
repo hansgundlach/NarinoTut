@@ -214,6 +214,8 @@ model.fit(train_images, train_labels, epochs=5)
 6. word embeddings 
 (http://projector.tensorflow.org)
 
+Interesting Applications : http://www.yaronhadad.com/deep-learning-most-amazing-applications/
+
 
 
 ## More
