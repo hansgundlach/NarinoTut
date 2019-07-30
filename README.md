@@ -148,12 +148,15 @@ https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning
 
 
 
-## Deep Neural Networks and Image Classification
-1. Good Lectures
-https://www.youtube.com/watch?v=5v1JnYv_yWs&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
-Link to google colab notebooks 
+## Redes neuronales profundas y clasificación de imágenes
+si tu no puedes installar la TensorFlow
+utilisar : https://www.kaggle.com/competitions
+o 
+Enlace a cuadernos de google colab
 Image Classification:https://www.tensorflow.org/beta/tutorials/keras/basic_classification
 CNN introduction:https://www.tensorflow.org/beta/tutorials/images/intro_to_cnns
+1. buenas video conferencias
+https://www.youtube.com/watch?v=5v1JnYv_yWs&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 2. Image Classification (GPU,TPU)
 3. datasets
 4. Filters
@@ -162,7 +165,7 @@ CNN introduction:https://www.tensorflow.org/beta/tutorials/images/intro_to_cnns
 7. Image Augementation
 8. Transfer Learning 
 
-Interesting Competitions https://www.kaggle.com/competitions
+
 
 ```python
 
