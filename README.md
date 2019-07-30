@@ -220,7 +220,7 @@ Tensorflow 2.0 beta install: Go to anaconda terminal and type:  pip install tens
 
 Interesting Applications : http://www.yaronhadad.com/deep-learning-most-amazing-applications/
 
-
+OpenAI application list:   https://openai.com/blog/better-language-models/
 
 
 ## More
