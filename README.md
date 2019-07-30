@@ -214,7 +214,12 @@ model.fit(train_images, train_labels, epochs=5)
 6. word embeddings 
 (http://projector.tensorflow.org)
 
+
+Tensorflow 2.0 beta install: Go to anaconda terminal and type:  pip install tensorflow==2.0.0-beta1
+
+
 Interesting Applications : http://www.yaronhadad.com/deep-learning-most-amazing-applications/
+
 
 
 
