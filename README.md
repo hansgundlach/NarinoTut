@@ -1,5 +1,7 @@
 # NarinoTut
 Files for Tensorflow and Machine Learning Tutorial. 
+
+archivos para tensorflow y machine learning
 ## Python 
 https://www.codecademy.com/learn/learn-python
 
