@@ -73,6 +73,12 @@ Excercise #1
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
+y 
+
+Escribe, en el lenguaje de programación que desees, un programa que muestre en pantalla los números del 1 al 100, sustituyendo los múltiplos de 3 por el palabro “Fizz” y, a su vez, los múltiplos de 5 por “Buzz”. Para los guarismos que, al tiempo, son múltiplos de 3 y 5, utiliza el combinado “FizzBuzz”.
+
+
+
 
 
 ## Machine Learning
@@ -230,9 +236,9 @@ custom model.
 possible other https://github.com/tensorflow/tensorflow/blob/r1.13/tensorflow/contrib/eager/python/examples/generative_examples/dcgan.ipynb
 
 
-Dream Network Code
+red soñada
 
-Network that works to increase loss
+Red que trabaja para aumentar la pérdida.
 ```python 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
